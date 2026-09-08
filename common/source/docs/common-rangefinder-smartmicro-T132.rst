@@ -6,7 +6,7 @@
 Smartmicro T132 Drone Altimeter
 ================================
 
-The Smartmicro T132 is a radar-based distance sensor with a DroneCAN
+The `Smartmicro T132 <https://www.smartmicro.com/airborne/drone-altimeter/>`__ is a radar-based distance sensor with a DroneCAN
 interface. It can be used as a rangefinder with ArduPilot.
 
 .. image:: ../../../images/Drone_Altimeter(Type132)_front.png
