@@ -1,5 +1,7 @@
 .. _common-rangefinder-smartmicro-t132.rst:
 
+[copywiki destination="plane,copter"]
+
 ================================
 Smartmicro T132 Drone Altimeter
 ================================
