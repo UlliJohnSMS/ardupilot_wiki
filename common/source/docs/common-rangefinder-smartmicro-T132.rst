@@ -1,4 +1,4 @@
-.. _common-rangefinder-smartmicro-t132:
+.. _common-rangefinder-smartmicro-t132.rst:
 
 ================================
 Smartmicro T132 Drone Altimeter
