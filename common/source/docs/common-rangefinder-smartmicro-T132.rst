@@ -68,11 +68,6 @@ Connect the following signals to the flight controller:
 * GND
 * Power supply
 
-The T132 requires a DC supply voltage between 8 and 32 V and consumes
-approximately 3.75 to 5 W.
-
-The T132 has an internal CAN termination resistor.
-
 .. image:: ../../../images/T132_wiring.png
     :target: ../_images/T132_wiring.png
 
@@ -132,6 +127,7 @@ After configuring the CAN interface and rangefinder, reboot the flight
 controller.
 
 The T132 should then be detected automatically as a DroneCAN rangefinder. Measurements are shown in the MAVLink Inspector like this:
+
 .. image:: ../../../images/Inspector_Ardupilot.png
     :target: ../_images/Inspector_Ardupilot.png
 
