@@ -23,7 +23,7 @@ including operation in GNSS-denied environments.
 Hardware Specifications
 =======================
 
-* Measurement range: up to 175 m
+* Altitude: up to 175 m possible
 * Radar frequency: 76-77 GHz
 * Interface: DroneCAN
 * CAN bitrate: 1 Mbit/s
