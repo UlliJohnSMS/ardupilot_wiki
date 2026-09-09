@@ -24,7 +24,13 @@ Hardware Specifications
 =======================
 
 * Altitude: up to 175 m possible
-* Radar frequency: 76-77 GHz
+* Automatic dual mode operation (medium/long range mode)
+* Operates in 76-77 GHz band approved for altimeter operation in Europe
+* Made in Germany, specially designed for European drone manufactures
+* ITAR free, not dual-use classified
+* Mature hardware, in full production, available in high volume
+* High electromagnetic susceptibility robustness: difficult to jam
+* Low observability (narrow beam, short dwell time)
 * Interface: DroneCAN
 * CAN bitrate: 1 Mbit/s
 * CAN identifiers: 29-bit
@@ -61,7 +67,7 @@ the fuselage, provided that the surface is radar transparent.
 Wiring
 ------
 
-The T132 uses a 12-pin male bayonet connector from the Hirose LF10 series.
+The sensor connector is a 12-pin male bayonet type connector (waterproof IP67, series LF10WBRB-12PD, manufacturer Hirose, Japan).
 
 Connect the following signals to the flight controller:
 
@@ -78,6 +84,8 @@ Connect the following signals to the flight controller:
     Make sure that the complete CAN bus has correct termination. The T132
     contains an internal termination resistor, so the CAN bus topology must
     be taken into account when connecting additional CAN devices.
+
+* Smartmicro does not provide a cable that connects to Pixhawk-standard CAN bus connectors out of the box. But different cable options with D-Sub-9 connector or as "Open Wire" are available.
 
 Firmware
 --------
